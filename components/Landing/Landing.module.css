@@ -1,0 +1,43 @@
+@keyframes slide {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-1000%);
+    }
+  }
+  
+  .logos {
+    padding: 0.5rem 0.5rem;
+    background: white;
+    height: 600px;
+  }
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    content: "";
+    z-index: 1;
+  }
+  
+  .logosSlide img{
+    height: 2rem;
+    margin: 1.2rem 1rem;
+    animation: 6s slide infinite linear;
+  }
+  
+  .logos:hover .logosSlide {
+    animation-play-state: paused;
+  }
+  
+  .logosSlide {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../public/carousel/photo-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img{
+    @apply h-24 w-60
+}

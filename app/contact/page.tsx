@@ -6,7 +6,7 @@ const Cpage = () => {
     return (
         <div className='h-full absolute top-28 px-8'>
             <div className="container my-24 mx-auto md:px-6">
-                <section className="mb-32">
+                <section className="mb-32 px-4">
                     <div className="relative h-[100px] md:h-[300px] overflow-hidden bg-cover  bg-no-repeat bg-[url('https://mdbcdn.b-cdn.net/img/new/textures/full/284.jpg')]"></div>
                     <div className="container px-6 md:px-12">
                         <div
@@ -16,7 +16,7 @@ const Cpage = () => {
                                     <form>
                                         <div className="mb-6">
                                             <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
-                                            <input type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com" required />
+                                            <input type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@.com" required />
                                         </div>
                                         <div className="mb-6">
                                             <label htmlFor="password" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your password</label>

@@ -10,9 +10,9 @@ import FeatureBox from './FeatureBox'
 // images
 import src from '../../public/home-A-trusted-growth-partner-rv.webp'
 import src2 from '../../public/courier.webp'
-import src3 from '../../public/shipping1.webp';
-import src4 from '../../public/shipping2.webp';
-import src5 from '../../public/shipping3.webp';
+import src3 from '../../public/carousel/fulfillment1.webp';
+import src4 from '../../public/carousel/fulfillment1.webp';
+import src5 from '../../public/carousel/fulfillment1.webp';
 
 const arr = [
     {

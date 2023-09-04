@@ -96,7 +96,7 @@ const NavbarHead = () => {
 
                             </li>
                             <li>
-                                <button onClick={() => { router.push('/contact') }} className="mt-2 text-gray-700 bg-gray-50 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium  text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800" type="button">
+                                <button onClick={() => { router.push('/') }} className="mt-2 text-gray-700 bg-gray-50 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium  text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800" type="button">
                                     contact
                                 </button>
 

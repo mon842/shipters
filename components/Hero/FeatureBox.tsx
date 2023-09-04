@@ -5,7 +5,7 @@ import React from 'react'
 
 const FeatureBox = ({ n, t, i }: any) => {
     return (
-        <div className='my-3'>
+        <div className='my-5'>
             <Image
                 src={i}
                 alt=''

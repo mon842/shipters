@@ -4,12 +4,11 @@ import React from 'react'
 import src from '../../public/carousel/fulfillment1.webp';
 import src2 from '../../public/carousel/wall.jpg';
 // images
-import { Carousel } from 'flowbite-react';
 import StatsBox from '../Hero/StatsBox';
 
 const CarouselU = () => {
     return (
-        <div className='relative mx-4'>
+        <div className='relative mx-4 my-5'>
             <div className='grid grid-cols-1 md:grid-cols-2'>
 
                 <Image

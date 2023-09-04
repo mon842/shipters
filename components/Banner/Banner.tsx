@@ -58,7 +58,7 @@ const arr = [
 ]
 const Banner = () => {
     return (
-        <div className={`${Style.logos} py-1 md:py-6`}>
+        <div className={`${Style.logos} py-1 md:py-6 my-5`}>
             <div className={`inline-flex ${Style.logosSlide} gap-12`}>
                 {arr.map((i) => (
                     <Image

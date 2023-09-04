@@ -33,7 +33,7 @@
   .logosSlide {
     display: flex;
     flex-direction: column;
-    background-image: url("../../public/carousel/photo-1.jpg");
+    background-image: url("../../public/landing/landing.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
